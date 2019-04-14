@@ -1,6 +1,5 @@
 const smallestPositiveInteger = require('./smallestPositiveInteger');
 
-
 test('empty array is given', () => {
     expect(smallestPositiveInteger([])).toEqual(1);
 });
