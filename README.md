@@ -7,7 +7,7 @@ Challenge questions are the ones that I have ran into in HackerRank or Codility 
 - https://hackerrank.com
 - https://codility.com
 
-The idea here is to try to gain a different point of view, challenge myself in thinking about efficieny more and give the new approaches a try.
+The idea here is to try to gain a different point of view, challenge myself in thinking about efficiency more and give the new approaches a try.
 
 If you have any feedback or suggestions for improvement, feel free to reach out to me. 
 
