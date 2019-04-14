@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ebrukye/daily-coding-challenges.svg?branch=master)](https://travis-ci.org/ebrukye/daily-coding-challenges)
 
-![Scheme](assets/logo2.png)
+![Scheme](assets/logo.png)
 
 I have recently started to think about algorithm problems more and tried to solve them -kind of in a daily basis but no pressure, so let's say frequently- to improve my programming skills and these are my solutions to some of them that I found interesting and fun to solve.
 
