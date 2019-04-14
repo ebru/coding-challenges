@@ -1,8 +1,10 @@
 # Daily Coding Challenges
 
+[![Build Status](https://travis-ci.org/ebrukye/daily-coding-challenges.svg?branch=master)](https://travis-ci.org/ebrukye/daily-coding-challenges)
+
 I have recently started to think about algorithm problems more and tried to solve them -kind of in a daily basis but no pressure, so let's say frequently- to improve my programming skills and these are my solutions to some of them that I found interesting and fun to solve.
 
-Some others can be found in my Repl/it account. I mostly start to solve the problems there for a quick action and store them later. I think it is fair enough to say that it has already been one of my all time favorite websites.
+Some others can be found in my Repl/it account. I mostly start to solve the problems there for a quick action and store them later. I think it is fair enough to say that it has already been one of my favorite coding sites.
 
 - https://repl.it/@ebrukye
 
