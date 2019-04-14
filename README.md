@@ -6,7 +6,7 @@ Some others can be found in my Repl/it account. I mostly start to solve the prob
 
 - https://repl.it/@ebrukye
 
-Challenge questions are the ones that I have ran into in HackerRank or Codility so far. Check them out, they're cool.
+Challenge questions are the ones that I have ran into or hear from friends in HackerRank or Codility so far. Check them out, they're cool.
 
 - https://hackerrank.com
 - https://codility.com
