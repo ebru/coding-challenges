@@ -20,13 +20,3 @@ The idea here is to try to gain a different point of view, challenge myself in t
 If you have any feedback or suggestions for improvement, feel free to reach out to me. 
 
 Happy coding!
-
-## Run tests
-
-For all problems:
-
-` npm test `
-
-For a certain problem:
-
-` npm test {challenge_name} `
