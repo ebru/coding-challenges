@@ -21,10 +21,8 @@ function longestSubstringSameInReverse(str) {
 
       let substr = str.substring(i, j);
 
-      if (isSameInReverse(substr)) {
-        if (substr.length > longest.length) {
+      if (isSameInReverse(substr) && substr.length > longest.length) {
           longest = substr;
-        }
       }
 
     }
