@@ -17,7 +17,7 @@ function longestSubstringSameInReverse(str) {
   }
 
   for (let i = 0; i < str.length; i++) {
-    for (let j = 1; j < str.length; j++) {
+    for (let j = str.length - 1; j > 0; j--) {
       let substr = str.substring(i, j);
 
       if (isSameInReverse(substr) && substr.length > longest.length) {
