@@ -1,3 +1,8 @@
+/**
+ * Finds the longest substring that is the same in reverse
+ * 
+ * @param {string} str 
+ */
 function longestSubstringSameInReverse(str) {
     let longest = 0;
     let longestStr = '';
