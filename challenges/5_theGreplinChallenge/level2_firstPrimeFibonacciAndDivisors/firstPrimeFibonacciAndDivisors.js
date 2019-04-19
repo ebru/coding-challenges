@@ -1,9 +1,9 @@
 /**
- * Finds the first prime fibonacci number larger than given number
+ * Finds the nth fibonacci number
  * 
- * @param {number} n 
+ * @param {number} n
  */
-function firstPrimeFibonacciLargerThan(n) {
+function findFibonacci(n) {
     let cache = {};
 
     function fib(n) {
@@ -16,13 +16,24 @@ function firstPrimeFibonacciLargerThan(n) {
         return cache[n] = fib(n - 1) + fib(n - 2);
     }
 
-    let counter = 1;
+    return fib(n);
+}
+
+/**
+ * Finds the first prime fibonacci number larger than given number
+ * 
+ * @param {number} n 
+ */
+function firstPrimeFibonacciLargerThan(n) {
+    let i = 1;
 
     while (true) {
-        if (fib(counter) > n && isPrime(fib(counter))) {
-            return fib(counter);
+        let fibNum = findFibonacci(i);
+
+        if (fibNum > n && isPrime(fibNum)) {
+            return fibNum;
         }
-        counter++;
+        i++;
     }
 }
 
