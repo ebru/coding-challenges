@@ -1,6 +1,6 @@
 const longestSubstringSameInReverse = require('./longestSubstringSameInReverse');
 
-test('emptry string is given', () => {
+test('empty string is given', () => {
     expect(longestSubstringSameInReverse('')).toEqual('');
 });
 
