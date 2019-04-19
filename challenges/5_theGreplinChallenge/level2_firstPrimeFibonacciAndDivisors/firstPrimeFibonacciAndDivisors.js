@@ -5,26 +5,26 @@
  */
 function firstPrimeFibonacciLargerThan(n) {
     let cache = {};
-  
+
     function fib(n) {
-      if (n in cache)
-        return cache[n];
-        
-      if (n < 2)
-        return n;
-  
-      return cache[n] = fib(n - 1) + fib(n - 2);
+        if (n in cache)
+            return cache[n];
+
+        if (n < 2)
+            return n;
+
+        return cache[n] = fib(n - 1) + fib(n - 2);
     }
-  
+
     let counter = 1;
-  
+
     while (true) {
-      if (fib(counter) > n && isPrime(fib(counter))) {
-        return fib(counter);
-      }
-      counter++;
+        if (fib(counter) > n && isPrime(fib(counter))) {
+            return fib(counter);
+        }
+        counter++;
     }
-  }
+}
 
 /**
  * Checks if a given number is prime
@@ -67,7 +67,7 @@ function sumOfPrimeDivisorsOf(x) {
  */
 function firstPrimeFibonacciAndDivisors(n) {
     let x = firstPrimeFibonacciLargerThan(n);
-    
+
     return sumOfPrimeDivisorsOf(x + 1);
 }
 
