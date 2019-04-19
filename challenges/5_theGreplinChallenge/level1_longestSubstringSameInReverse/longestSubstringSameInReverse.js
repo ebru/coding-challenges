@@ -7,7 +7,7 @@ function longestSubstringSameInReverse(str) {
   let longest = '';
 
   function isSameInReverse(str) {
-    // Only iterate through half of the array while comparing the rest
+    // Only iterate through half of the string while comparing the rest
     for (let i = 0; i < Math.floor(str.length / 2); i++) {
       if (str[i] !== str[str.length - i - 1]) {
         return false;
