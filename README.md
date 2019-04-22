@@ -1,6 +1,6 @@
 # Coding Challenges
 
-[![Build Status](https://travis-ci.org/ebrukye/daily-coding-challenges.svg?branch=master)](https://travis-ci.org/ebrukye/daily-coding-challenges)
+[![Build Status](https://travis-ci.org/ebrukye/daily-coding-challenges.svg?branch=master)](https://travis-ci.org/ebrukye/coding-challenges)
 
 ![Scheme](assets/logo.png)
 
