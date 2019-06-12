@@ -8,22 +8,16 @@ Note: Assume that the string has alphabets and numbers and round brackets only.
 ` ((BCD)AE)  `
 
 **Output 1**
-``` 
-true 
-```
+` true `
 
 **Sample Input 2** 
 ` (ZH)N(X)() `
 
 **Output 1**
-``` 
-true
-```
+` true `
 
 **Sample Input 3** 
 ` )(PH)N(X) `
 
 **Output 1**
-``` 
-false
-```
+` false `
