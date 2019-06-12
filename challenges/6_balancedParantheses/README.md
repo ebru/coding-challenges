@@ -13,11 +13,11 @@ Note: Assume that the string has alphabets and numbers and round brackets only.
 **Sample Input 2** 
 ` (ZH)N(X)() `
 
-**Output 1**
+**Output 2**
 ` true `
 
 **Sample Input 3** 
 ` )(PH)N(X) `
 
-**Output 1**
+**Output 3**
 ` false `
