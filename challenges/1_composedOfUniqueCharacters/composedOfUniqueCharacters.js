@@ -9,10 +9,8 @@ function composedOfUniqueCharacters(string) {
 
     for (let char of str) {
         freqs[char] = freqs[char] + 1 || 1;
-    }
 
-    for (let key in freqs) {
-        if (freqs[key] > 1) {
+        if (freqs[char] > 1) {
             return 0;
         }
     }
