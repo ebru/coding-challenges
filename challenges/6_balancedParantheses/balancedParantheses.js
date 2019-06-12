@@ -1,3 +1,8 @@
+/**
+ * Validate if string given contains balanced parantheses
+ * 
+ * @param {string} str 
+ */
 function balancedParantheses(str) {
     let count = 0;
   
