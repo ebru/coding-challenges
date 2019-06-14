@@ -5,6 +5,10 @@
  */
 function balancedParantheses(str) {
     let count = 0;
+
+    if (str === '') {
+      return false;
+    }
   
     for (let char of str) {
       if (char === '(') {

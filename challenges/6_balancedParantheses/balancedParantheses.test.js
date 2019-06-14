@@ -1,5 +1,9 @@
 const balancedParantheses = require('./balancedParantheses');
 
+test('empty value is passed', () => {
+    expect(balancedParantheses('')).toEqual(false);
+});
+
 test('a fully nested valid string is given', () => {
     expect(balancedParantheses('((BCD)AE)')).toEqual(true);
 });
